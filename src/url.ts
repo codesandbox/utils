@@ -2,7 +2,8 @@ const REGEX = /(?<id>\w{5,6})-(?<port>\d{1,5})\.(?<hostname>.*)/;
 
 /**
  * Returns the host of the CodeSandbox preview for the given port based
- * on the current project.
+ * on the current project. It's expected to call this function from an environment
+ * that's running in CodeSandbox. It supports running it from Node and from the web app.
  */
 export function getCodeSandboxHost(port: number): string | undefined {
   if (typeof window === "undefined") {
