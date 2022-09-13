@@ -1,0 +1,18 @@
+{
+  "name": "@codesandbox/utils",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "repository": "https://github.com/codesandbox/utils.git",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "devDependencies": {
+    "@types/node": "^18.7.17",
+    "typescript": "^4.8.3"
+  }
+}
