@@ -4,6 +4,7 @@
   "main": "lib/index.js",
   "repository": "https://github.com/codesandbox/utils.git",
   "license": "MIT",
+  "private": false,
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc"
